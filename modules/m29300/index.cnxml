@@ -1,0 +1,111 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Bảo vệ đường dây</title>
+  <metadata>
+  <md:content-id>m29300</md:content-id><md:title>Bảo vệ đường dây</md:title>
+  <md:abstract/>
+  <md:uuid>850b24f3-4aef-453e-a8ce-c8ea28ce181a</md:uuid>
+</metadata>
+
+<content>
+    <para id="id3819819">a. Giới thiệu chung về bảo vệ đường dây</para>
+    <para id="id3819825">Phương pháp và chủng loại thiết bị bảo vệ các đường dây (ĐZ) tải điện phụ thuộc vào rất nhiều yếu tố như: ĐZ trên không hay ĐZ cáp, chiều dài ĐZ, phương thức nối đất của hệ thống, công suất truyền tải và vị trí của ĐZ trong cấu hình của hệ thống, cấp điện áp của ĐZ...</para>
+    <para id="id3819839">I. Phân loại các đường dây.</para>
+    <para id="id3819845">Hiện nay có nhiều cách để phân loại các ĐZ, theo cấp điện áp người ta có thể phân biệt:</para>
+    <list id="id3819853" list-type="bulleted">
+      <item>ĐZ hạ áp (low voltage: LV) tương ứng với cấp điện áp U &lt; 1 kV.</item>
+      <item>ĐZ trung áp (medium voltage: MV): 1 kV  U  35 kV.</item>
+      <item>ĐZ cao áp (high voltage: HV): 60 kV  U  220 kV.</item>
+      <item>ĐZ siêu cao áp (extra high voltage: EHV): 330 kV  U  1000 kV.</item>
+      <item>ĐZ cực cao áp (ultra high voltage: UHV): U &gt; 1000 kV.</item>
+    </list>
+    <para id="id3819950">Thông thường các ĐZ có cấp điện áp danh định từ 110 kV trở lên được gọi là ĐZ truyền tải và dưới 110 kV trở xuống gọi là ĐZ phân phối.</para>
+    <para id="id3819960">Theo cách bố trí ĐZ có: ĐZ trên không (overhead line), ĐZ cáp (cable line), ĐZ đơn (single line), ĐZ kép (double line)...</para>
+    <para id="id3819968">II. Các dạng sự cố và bảo vệ để bảo vệ đường dây tải điện.</para>
+    <para id="id3819976">Những sự cố thường gặp đối với ĐZ tải điện là ngắn mạch (một pha hoặc nhiều pha), chạm đất một pha (trong lưới điện có trung tính cách đất hoặc nối đất qua cuộn dập hồ quang), quá điện áp (khí quyển hoặc nội bộ), đứt dây và quá tải.</para>
+    <para id="id3819990">Để chống các dạng ngắn mạch trong lưới hạ áp thường người ta dùng cầu chảy (fuse) hoặc aptomat .</para>
+    <para id="id3819996">Để bảo vệ các ĐZ trung áp chống ngắn mạch, người ta dùng các loại bảo vệ:</para>
+    <list id="id3820002" list-type="bulleted">
+      <item>Quá dòng cắt nhanh hoặc có thời gian với đặc tính thời gian độc lập hoặc phụ thuộc.</item>
+      <item>Quá dòng có hướng.</item>
+      <item>Bảo vệ khoảng cách.</item>
+      <item>Bảo vệ so lệch sử dụng cáp chuyên dùng.</item>
+    </list>
+    <para id="id3820034">Đối với ĐZ cao áp và siêu cao áp, người ta thường dùng các bảo vệ:</para>
+    <list id="id3820040" list-type="bulleted">
+      <item>So lệch dòng điện.</item>
+      <item>Bảo vệ khoảng cách.</item>
+      <item>So sánh biên độ, so sánh pha.</item>
+      <item>So sánh hướng công suất hoặc dòng điện.</item>
+    </list>
+    <para id="id3820069">Sau đây chúng ta sẽ đi xét cụ thể các bảo vệ thường được dùng để bảo vệ ĐZ trong hệ thống điện.</para>
+    <para id="id3820078">b. Các loại bảo vệ thường dùng để bảo vệ đường dây</para>
+    <section id="id-944899697395">
+      <title>I. bảo vệ quá dòng</title>
+      <para id="id3820104">I.1. Bảo vệ quá dòng có thời gian (51):</para>
+      <para id="id3820110">Bảo vệ quá dòng có thể làm việc theo đặc tính thời gian độc lập (đường 1) hoặc phụ thuộc (đường 2) hoặc hỗn hợp (đường 3;4). Thời gian làm việc của bảo vệ có đặc tính thời gian độc lập không phụ thuộc vào trị số dòng ngắn mạch hay vị trí ngắn mạch, còn đối với bảo vệ có đặc tính thời gian phụ thuộc thì thời gian tác động tỉ lệ nghịch với dòng điện chạy qua bảo vệ, dòng ngắn mạch càng lớn thì thời gian tác động càng bé.</para>
+      <para id="id3820124">(1)t 0 IKĐ I(2)Hình 4.1: Đặc tính thời gian của bảo vệ quá dòng độc lập (1), phụ thuộc (2) và hỗn hợp (3, 4)(3)(4)I.1.1. Bảo vệ quá dòng với đặc tuyến thời gian độc lập: </para>
+      <para id="id3808276">Ưu điểm của dạng bảo vệ này là cách tính toán và cài đặt của bảo vệ khá đơn giản và dễ áp dụng. Thời gian đặt của các bảo vệ phải được phối hợp với nhau sao cho có thể cắt ngắn mạch một cách nhanh nhất mà vẫn đảm bảo được tính chọn lọc của các bảo vệ.</para>
+      <para id="id3808292">Hiện nay thường dùng 3 phương pháp phối hợp giữa các bảo vệ quá dòng liền kề là phương pháp theo thời gian, theo dòng điện và phương pháp hỗn hợp giữa thời gian và dòng điện.</para>
+      <para id="id3808304">I.1.1.1. Phối hợp các bảo vệ theo thời gian: </para>
+      <para id="id3808310">Đây là phương pháp phổ biến nhất thường được đề cập trong các tài liệu bảo vệ rơle hiện hành. Nguyên tắc phối hợp này là nguyên tắc bậc thang, nghĩa là chọn thời gian của bảo vệ sao cho lớn hơn một khoảng thời gian an toàn t so với thời gian tác động lớn nhất của cấp bảo vệ liền kề trước nó (tính từ phía phụ tải về nguồn).</para>
+      <para id="id3808336">tn = t(n-1)max + t(4-1)</para>
+      <para id="id3808377">Trong đó:</para>
+      <list id="id3808382" list-type="bulleted">
+        <item>tn: thời gian đặt của cấp bảo vệ thứ n đang xét.</item>
+        <item>t(n-1)max: thời gian tác động cực đại của các bảo vệ của cấp bảo vệ đứng trước nó (thứ n).</item>
+        <item>t: bậc chọn lọc về thời gian được xác định bởi công thức:</item>
+      </list>
+      <para id="id3808440">t = ER.10-2.[t(n-1)max + tn] + tMC(n-1) + tdp</para>
+      <para id="id3808500"> 2.10-2.ER.t(n-1)max + tMC (n-1) + tqt + tdp(4-2)</para>
+      <para id="id3808568">Với:</para>
+      <list id="id3808572" list-type="bulleted">
+        <item>ER: sai số thời gian tương đối của chức năng quá dòng cấp đang xét (có thể gây tác động sớm hơn) và cấp bảo vệ trước (kéo dài thời gian tác động của bảo vệ), đối với rơle số thường ER = ( 3  5)% tuỳ từng rơle.</item>
+        <item>tMC (n-1): thời gian cắt của máy cắt cấp bảo vệ trước, thường có giá trị lấy bằng (0,1  0,2) sec đối với MC không khí, (0,06  0,08) sec với MC chân không và (0,04  0,05) sec với MC khí SF6.</item>
+        <item>tqt: thời gian sai số do quán tính khiến cho rơle vẫn ở trạng thái tác động mặc dù ngắn mạch đã bị cắt, với rơle số tqt thường nhỏ hơn 0,05 sec.</item>
+        <item>tdp: thời gian dự phòng.</item>
+      </list>
+      <para id="id3808718">Đối với rơle điện cơ bậc chọn lọc về thời gian t thường được chọn bằng 0,5 sec, rơle tĩnh khoảng 0,4 sec còn đối với rơle số t = (0,2  0,3) sec tùy theo loại máy cắt được sử dụng.</para>
+      <para id="id3808758">Giá trị dòng điện khởi động của bảo vệ IKĐB trong trường hợp này được xác định bởi:</para>
+      <para id="id3808778"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>KÂB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>at</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msub><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>lv</m:mtext></m:mrow></m:mstyle><m:mtext>max</m:mtext></m:mrow></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tv</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{ ital "KÂB"} } = {  {K rSub { size 8{ ital "at"} }  "." K rSub { size 8{ ital "mm"} }  "." I rSub { size 8{ ital "lv""max"} } }  over  {K rSub { size 8{ ital "tv"} } } } } {}</m:annotation></m:semantics></m:math>(4-3)</para>
+      <para id="id3808935">Trong đó: </para>
+      <list id="id3808940" list-type="bulleted">
+        <item>Kat: hệ số an toàn để đảm bảo cho bảo vệ không cắt nhầm khi có ngắn mạch ngoài do sai số khi tính dòng ngắn mạch (kể đến đường cong sai số 10% của BI và 20% do tổng trở nguồn bị biến động).</item>
+        <item>Kmm: hệ số mở máy, có thể lấy Kmm= (1.5  2,5).</item>
+        <item>Ktv: hệ số trở về của chức năng bảo vệ quá dòng, có thể lấy trong khoảng (0,85  0,95). Sở dĩ phải sử dụng hệ số Ktv ở đây xuất phát từ yêu cầu đảm bảo sự làm việc ổn định của bảo vệ khi có các nhiễu loạn ngắn (hiện tượng tự mở máy của các động cơ sau khi TĐL đóng thành công) trong hệ thống mà bảo vệ không được tác động. </item>
+      </list>
+      <para id="id3809056">Giá trị dòng khởi động của bảo vệ cần phải thoả mãn điều kiện:</para>
+      <para id="id3809063">Ilvmax &lt; IKĐB &lt; IN min(4-4)</para>
+      <para id="id3809103">Với:</para>
+      <list id="id3809108" list-type="bulleted">
+        <item>Ilv max: dòng điện cực đại qua đối tượng được bảo vệ, thường xác định trong chế độ cực đại của hệ thống, thông thường:</item>
+      </list>
+      <para id="id3809134">Ilv max = (1,05  1,2).Iđm (4-5)</para>
+      <para id="id3809174">Trong trường hợp không thoả mãn điều kiện (4-4) thì phải sử dụng bảo vệ quá dòng có kiểm tra áp.</para>
+      <list id="id3809182" list-type="bulleted">
+        <item>IN min: dòng ngắn mạch nhỏ nhất khi ngắn mạch trong vùng bảo vệ.</item>
+      </list>
+      <para id="id3809205">Khi yêu cầu phải cài đặt giá trị dòng khởi động cho rơle, giá trị này sẽ được tính theo công thức:</para>
+      <para id="id3809214"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>KÂR</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>sâ</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup><m:mtext>.</m:mtext><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>KÂB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>I</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{ ital "KÂR"} } = {  {K rSub { size 8{ ital "sâ"} }  rSup { size 8{ \( 3 \) } }  "." I rSub { size 8{ ital "KÂB"} } }  over  {n rSub { size 8{I} } } } } {}</m:annotation></m:semantics></m:math>(4-6)</para>
+      <para id="id3809352">Trong đó:</para>
+      <list id="id3809356" list-type="bulleted">
+        <item>nI: tỷ số biến đổi của BI.</item>
+        <item>K(3)sđ: hệ số sơ đồ, phụ thuộc vào cách mắc sơ đồ BI 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msubsup><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>sâ</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup><m:mo stretchy="false">=</m:mo><m:mfrac><m:msubsup><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>R</m:mi></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup><m:msubsup><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{K rSub { size 8{ ital "sâ"} }  rSup { size 8{ \( 3 \) } } = {  {I rSub { size 8{R} }  rSup { size 8{ \( 3 \) } } }  over  {I rSub { size 8{T} }  rSup { size 8{ \( 3 \) } } } } } {}</m:annotation></m:semantics></m:math>. Đối với sơ đồ sao hoàn toàn hoặc sao khuyết thì 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msubsup><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>sâ</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{K rSub { size 8{ ital "sâ"} }  rSup { size 8{ \( 3 \) } } =1} {}</m:annotation></m:semantics></m:math>, còn sơ đồ số 8 thì 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msubsup><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>sâ</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msubsup><m:mo stretchy="false">=</m:mo><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{K rSub { size 8{"sâ"} }  rSup { size 8{ \( 3 \) } } = sqrt {3} } {}</m:annotation></m:semantics></m:math>.</item>
+      </list>
+      <para id="id3809717">I.1.1.2. Phối hợp các bảo vệ theo dòng điện:</para>
+      <para id="id3809723">thông thường ngắn mạch càng gần nguồn thì dòng ngắn mạch càng lớn và dòng ngắn mạch này sẽ giảm dần khi vị trí điểm ngắn mạch càng xa nguồn. Yêu cầu đặt ra ở đây là phải phối hợp các bảo vệ tác động theo dòng ngắn mạch sao cho rơle ở gần điểm ngắn mạch nhất sẽ tác động cắt máy cắt mà thời gian tác động giữa các bảo vệ vẫn chọn theo đặc tính thời gian độc lập. Nhược điểm của phương pháp này là cần phải biết công suất ngắn mạch của nguồn và tổng trở ĐZ giữa hai đầu ĐZ đặt rơle mà ta cần phải phối hợp để đảm bảo tính chọn lọc. độ chính xác của bảo vệ có thể sẽ không đảm bảo đối với các ĐZ gần nguồn có công suất ngắn mạch biến động mạnh hoặc ngắn mạch qua tổng trở có giá trị lớn. Do những nhược điểm trên mà phương pháp phối hợp theo dòng điện thường sử dụng để bảo vệ các ĐZ có công suất nguồn ít biến động và cho một dạng ngắn mạch.</para>
+      <para id="id3809782">Phương pháp này tính theo dòng ngắn mạch pha và lựa chọn giá trị đặt của bảo vệ sao cho rơle ở gần điểm sự cố nhất sẽ tác động. Giả sử xét ngắn mạch 3 pha N(3) tại điểm N2 trên hình 4.3, giá trị dòng ngắn mạch tại N2 được xác định theo công thức:</para>
+      <para id="id3809826"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msub><m:mi>N</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi><m:mtext>.</m:mtext><m:msub><m:mi>U</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nguäön</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mo stretchy="false">(</m:mo><m:msub><m:mi>Z</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nguäön</m:mtext></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>Z</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="12pt"><m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{N rSub { size 6{2} } } } = {  {c "." U rSub { ital "nguäön"} }  over  { size 12{ sqrt {3}  \( Z rSub { ital "nguäön"}  size 12{+Z rSub { ital "AB"} } size 12{ \) }} } } } {}</m:annotation></m:semantics></m:math>(4-7)</para>
+      <para id="id3829012">Trong đó:</para>
+      <list id="id3829016" list-type="bulleted">
+        <item>Unguồn: điện áp dây của nguồn.</item>
+        <item>c: hệ số thay đổi điện áp nguồn, có thể lấy c = 1,1.</item>
+        <item>Znguồn: tổng trở nguồn, được xác định bằng:</item>
+      </list>
+      <para id="id3829063"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nguäön</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msubsup><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nguäön</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msubsup><m:msub><m:mi>S</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NM</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{ ital "nguäön"} } = {  {U rSub { size 8{ ital "nguäön"} }  rSup { size 8{2} } }  over  {S rSub { size 8{ ital "NM"} } } } } {}</m:annotation></m:semantics></m:math>(4-8)</para>
+      <para id="id3829172">với SNM là công suất ngắn mạch của nguồn.</para>
+    </section>
+  </content>
+</document>

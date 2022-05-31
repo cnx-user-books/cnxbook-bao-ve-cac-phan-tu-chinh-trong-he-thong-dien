@@ -1,0 +1,344 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Bảo vệ thanh góp</title>
+  <metadata>
+  <md:content-id>m29107</md:content-id><md:title>Bảo vệ thanh góp</md:title>
+  <md:abstract/>
+  <md:uuid>97d429e1-1035-49ea-8366-970074d8f735</md:uuid>
+</metadata>
+  <content>
+    <section id="id-081705371227">
+      <title>A. GIỚI THIỆU CHUNG</title>
+      <section id="id-221293710685">
+        <title>I. ĐẶT VẤN ĐỀ</title>
+        <para id="id3549402">Sự cố xảy ra với thanh góp rất ít, nhưng vì thanh góp là đầu mối liên hệ của nhiều phần tử trong hệ thống nên khi xảy ra ngắn mạch trên thanh góp nếu không được loại trừ một cách nhanh chóng và tin cậy thì có thể gây ra những hậu quả nghiêm trọng và làm tan rã hệ thống. Với thanh góp có thể không cần xét đến bảo vệ quá tải vì khả năng quá tải của thanh góp là rất lớn.</para>
+        <para id="id3549416">Bảo vệ thanh góp cần thoả mãn những đòi hỏi rất cao về chọn lọc, khả năng tác động nhanh và độ tin cậy.</para>
+      </section>
+      <section id="id-315596802075">
+        <title>II. NGUYÊN NHÂN GÂY SỰ CỐ TRÊN THANH GÓP</title>
+        <para id="id3549434">Các nguyên nhân gây ra sự cố trên thanh góp có thể là:</para>
+        <list id="id3549441" list-type="bulleted">
+          <item>Hư hỏng cách điện do già cỗi vật liệu.</item>
+          <item>Quá điện áp.</item>
+          <item>Máy cắt hư do sự cố ngoài thanh góp.</item>
+          <item>Thao tác nhầm.</item>
+          <item>Sự cố ngẫu nhiên do vật dụng rơi chạm thanh góp.</item>
+        </list>
+        <para id="id3549480">Đối với hệ thống thanh góp phân đoạn hay hệ thống nhiều thanh góp cần cách ly thanh góp bị sự cố ra khỏi hệ thống càng nhanh càng tốt. Các dạng hệ thống thanh góp thường gặp như hình 3.1.</para>
+        <para id="id3549501">Mỗi sơ đồ hệ thống thanh góp có chức năng và tính linh hoạt làm việc khác nhau đòi hỏi hệ thống bảo vệ rơle phải thoả mãn được các yêu cầu đó. Các dạng hệ thống bảo vệ thanh góp như sau:</para>
+        <list id="id3549514" list-type="bulleted">
+          <item>Kết hợp bảo vệ thanh góp với bảo vệ các phần tử nối với thanh góp.</item>
+          <item>Bảo vệ so lệch thanh góp.</item>
+          <item>Bảo vệ so sánh pha.</item>
+          <item>Bảo vệ có khoá có hướng.</item>
+        </list>
+        <para id="id3549544">Trong đó loại 1, 2 phù hợp cho các trạm vừa và nhỏ 3, 4 dùng cho các trạm lớn.</para>
+      </section>
+    </section>
+    <section id="id-00929936017242">
+      <title>B. CÁC DẠNG BẢO VỆ THANH GÓP</title>
+      <section id="id-746956002931">
+        <title>I. BẢO VỆ THANH GÓP BẰNG CÁC PHẦN TỬ NỐI KẾT VỚI THANH GÓP</title>
+        <para id="id3549571">Hệ thống bảo vệ này bao gồm bảo vệ quá dòng điện hoặc bảo vệ khoảng cách của các phần tử nối vào thanh góp, nó có vùng bảo vệ bao phủ cả thanh góp. Khi ngắn mạch trên thanh góp sự cố được cách ly bằng bảo vệ của các phần tử liên kết qua thời gian của cấp thứ hai.</para>
+        <para id="id3549597">I.1. Sơ đồ bảo vệ dòng điện:</para>
+        <para id="id3549604">Hệ thống bảo vệ dùng các bảo vệ dòng điện của MBA, đường dây và bảo vệ dòng điện đặt ở thanh góp (hình 3.2). Khi ngắn mạch trên thanh góp cần thực hiện cắt máy cắt phân đoạn trước sau một thời gian trễ các máy cắt nguồn nối với thanh góp sự cố được cắt ra. Bảo vệ đặt trên thanh góp cần phối hợp với thời gian của bảo vệ đường dây nối với thanh góp. Phối hợp với bảo vệ đường dây:</para>
+        <para id="id3549625">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msubsup>
+                        <m:mi>t</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mtext>MC</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>I</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msubsup>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:msubsup>
+                          <m:mi>t</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mtext>ñz</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>I</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msubsup>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mi fontstyle="italic">Δt</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{t rSub { size 8{"MC"} }  rSup { size 8{I} } =t rSub { size 8{"ñz"} }  rSup { size 8{I} } +Δt} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id3549734">với 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msubsup><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>ñz</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mi>I</m:mi></m:mrow></m:mstyle></m:msubsup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t rSub { size 8{"ñz"} }  rSup { size 8{I} } } {}</m:annotation></m:semantics></m:math> là thời gian cắt nhanh đường dây.</para>
+        <para id="id3549812">Cấp thời gian thứ hai dự trữ cho cấp thứ hai của đường dây:</para>
+        <para id="id3549820">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msubsup>
+                          <m:mi>t</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mtext>MC</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mtext>II</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msubsup>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:msubsup>
+                            <m:mi>t</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>ñz</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>II</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msubsup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>Δ</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mtext>t,</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{t rSub { size 8{"MC"} }  rSup { size 8{"II"} } =t rSub { size 8{"ñz"} }  rSup { size 8{"II"} } +Δ"t,"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id3549921">Thời gian của bảo vệ dòng cực đại của phần tử có nguồn phải lớn hơn thời gian của máy cắt:</para>
+        <para id="id3549930">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>t</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mtext>MBA</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:msubsup>
+                            <m:mi>t</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>MC</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mtext>II</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msubsup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi fontstyle="italic">Δt</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{t rSub { size 8{"MBA"} } =t rSub { size 8{"MC"} }  rSup { size 8{"II"} } +Δt "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id3552219">Để giảm thời gian loại trừ sự cố trên thanh góp xuống mức thấp nhất, cần khoá bảo vệ của phần tử nối với nguồn bằng các rơle của các lộ ra cấp điện cho phụ tải.</para>
+        <section id="id-74265392961">
+          <title>I.2. Nguyên tắc thực hiện khoá rơle dòng (hình 3.3):</title>
+          <para id="id3552237">Các phần tử nguồn có bảo vệ dòng cực đại có hai cấp thời gian tác động tH và tTG. Cấp thời gian tH được chọn phối hợp với bảo vệ các phần tử khác trong hệ thống, còn cấp thời gian tTG để loại trừ sự cố trên thanh góp, bé hơn nhiều so với tH.</para>
+          <para id="id3552265">Khi sự cố trên đường dây ra, bảo vệ quá dòng của các lộ này gởi tín hiệu khoá mạch cắt với thời gian tTG­ của máy cắt nguồn, đồng thời đưa tín hiệu tác động cắt máy cắt thuộc đường dây bị sự cố. Thông thường sự cố trên đường dây ra sẽ được cắt với thời gian t1, t2 tuỳ theo vị trí điểm ngắn mạch. Nếu các bảo vệ hoặc máy cắt tương ứng từ chối tác động thì sau thời gian tH bảo vệ quá dòng ở phần tử phía nguồn sẽ tác động cắt máy cắt phía nguồn.</para>
+          <para id="id3552307">Khi ngắn mạch trên thanh góp bảo vệ các xuất tuyến ra không khởi động nên không gởi tín hiệu khoá máy cắt phía nguồn và thanh góp sự cố được cắt ra với thời gian tTG.</para>
+        </section>
+        <section id="id-258336504782">
+          <title>I.3. Dùng rơle định hướng công suất khoá bảo vệ nhánh có nguồn nối với thanh cái:</title>
+          <para id="id3552337">Nguyên tắc thực hiện khoá bằng rơle định hướng công suất khi các phần tử nối với thanh góp có nguồn cung cấp từ hai phía. Rơle khoá tác động khi hướng công suất ngắn mạch ra khỏi thanh góp. Khi ngắn mạch trên một nhánh có nguồn phần tử định hướng công suất trên nhánh đó khởi động. Khi ngắn mạch trên thanh góp rơle định hướng công suất không khởi động và thanh góp được cắt ra khỏi nguồn.</para>
+        </section>
+      </section>
+      <section id="id-791503193497">
+        <title>II. BẢO VỆ SO LỆCH THANH GÓP</title>
+        <section id="id-334687857384">
+          <title>II.1. Các yêu cầu khi bảo vệ so lệch thanh góp:</title>
+          <para id="id3552371">Sơ đồ sơ lệch thanh góp cần thoả mãn các yếu tố sau:</para>
+          <list id="id3552385" list-type="bulleted">
+            <item>Phân biệt vùng tác động (tính chọn lọc).</item>
+            <item>Kiểm tra tính làm việc tin cậy.</item>
+            <item>Kiểm tra mạch nhị thứ BI.</item>
+          </list>
+          <section id="id-860269635682">
+            <title>II.1.1. Phân biệt vùng tác động:</title>
+            <para id="id3552416">Một hệ thống thanh góp gồm có hai hay nhiều thanh góp khác nhau, khi có sự cố trên thanh góp nào hệ thống bảo vệ rơle phải cắt tất cả các máy cắt nối tới thanh góp đó. Để thực hiện yêu cầu này, mạch thứ cấp của tất cả các BI của một thanh góp nối song song và nối với dây dẫn phụ, từ đó đưa vào rơle bảo vệ thanh góp đó, khi nhánh nào được nối với thanh góp nào thì BI của nó sẽ được nối với dây dẫn phụ của thanh góp đó bằng tiếp điểm phụ của dao cách ly. Để đảm bảo, tất cả các điểm trên thanh góp nằm trong vùng bảo vệ được giới hạn bởi các BI.</para>
+          </section>
+          <section id="id-766838925198">
+            <title>II.1.2. Kiểm tra mạch thứ cấp BI:</title>
+            <para id="id3552456">Khi dây dẫn mạch BI bị đứt hay chạm chập sẽ gây ra dòng không cân bằng chạy vào rơle so lệch có thể rơle hiểu nhầm đưa tín hiệu đi cắt các máy cắt. Đối với bảo vệ thanh góp trong thực tế vận hành xác suất xảy ra hư hỏng mạch thứ cấp lớn nên hệ thống bảo vệ thanh góp cần có bộ phận phát hiện hư hỏng mạch thứ cấp BI.</para>
+            <para id="id3552471">Một trong những mạch đơn giản để phát hiện đứt mạch thứ cấp là dùng rơle phát hiện đứt mạch thứ BI (rơle 95 hình 3.7) đặt nối tiếp hay song song với mạch bảo vệ thanh góp (87B).</para>
+          </section>
+          <section id="id-255102616141">
+            <title>II.1.3. Kiểm tra tính làm việc tin cậy:</title>
+            <para id="id3552522">Bảo vệ thanh góp làm việc nhầm sẽ gây thiệt hại to lớn nên hoạt động của sơ đồ phải luôn được kiểm tra. Hệ thống kiểm tra phải thoả mãn các yêu cầu sau:</para>
+            <para id="id3552545">- Hệ thống kiểm tra phải thực hiện bằng rơle khác làm việc độc lập với rơle chính (rơle K hình 3.8a)</para>
+            <para id="id3552562">- Tác động nhanh như bảo vệ chính.</para>
+            <para id="id3552567">- Nguồn cung cấp của rơle kiểm tra phải khác với nguồn cung cấp cho bảo vệ chính.</para>
+            <para id="id3552576">- Nó cho tác động khi ngắn mạch trong vùng bảo vệ và không tác động khi có ngắn mạch ngoài.</para>
+            <para id="id3552585">Trong sơ đồ trên có 3 vùng bảo vệ riêng biệt. Mỗi mạch nối với 1 bộ biến dòng tạo thành vùng bảo vệ I, II và V. Mạch điều khiển máy cắt gồm các tiếp điểm của rơle phân biệt vùng bảo vệ ghép nối tiếp với tiếp điểm của rơle kiểm tra.Ví dụ khi xảy ra ngắn mạch trên thanh góp I, lúc đó đồng thời tiếp điểm của rơle bảo vệ cho thanh góp I và tiếp điểm của rơle kiểm tra đóng mới đưa nguồn điều khiển cắt các máy cắt nối với thanh góp I. </para>
+          </section>
+        </section>
+        <section id="id-410307080134">
+          <title>II.2. Bảo vệ so lệch thanh góp dùng rơle dòng điện:</title>
+          <para id="id3552634">Nguyên lý so lệch cân bằng dòng hay áp thường được dùng bảo vệ thanh góp. </para>
+          <para id="id3552642">Bảo vệ loại cân bằng áp (hình 3.9): Các cuộn thứ cấp BI được nối sao cho khi ngắn mạch ngoài và làm việc bình thường, sức điện động của chúng ngược chiều nhau trong mạch, rơle được mắc nối tiếp trong mạch dây dẫn phụ.</para>
+          <para id="id3552656">- Khi ngắn mạch ngoài, cũng như khi làm việc bình thường có dòng phụ tải chạy qua, các sđđ 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mtext>TI</m:mtext></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { dot  {E}} rSub { size 8{"TI"} } ,} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mtext>TII</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { dot  {E}} rSub { size 8{"TII"} } } {}</m:annotation></m:semantics></m:math> bằng nhau. Ví dụ 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mtext>TI</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mtext>TII</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { dot  {I}} rSub { size 8{"TI"} } = { dot  {I}} rSub { size 8{"TII"} }  } {}</m:annotation></m:semantics></m:math>và 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>I</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>II</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n rSub { size 8{I} } =n rSub { size 8{"II"} } } {}</m:annotation></m:semantics></m:math>nên:</para>
+          <para id="id3552968">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mover accent="true">
+                            <m:mi>I</m:mi>
+                            <m:mo stretchy="false">˙</m:mo>
+                          </m:mover>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>R</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mover accent="true">
+                                <m:mi>E</m:mi>
+                                <m:mo stretchy="false">˙</m:mo>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>TI</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msub>
+                              <m:mover accent="true">
+                                <m:mi>E</m:mi>
+                                <m:mo stretchy="false">˙</m:mo>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>TII</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mi>Z</m:mi>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ { dot  {I}} rSub { size 8{R} } = {  { { dot  {E}} rSub { size 8{"TI"} }  -  { dot  {E}} rSub { size 8{"TII"} } }  over  {Z} } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <para id="id3553081">trong đó Z là tổng trở toàn mạch vòng.</para>
+          <para id="id3553094">- Khi ngắn mạch trong vùng bảo vệ các sđđ 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mtext>TI</m:mtext></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { dot  {E}} rSub { size 8{"TI"} } ,} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mtext>TII</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { dot  {E}} rSub { size 8{"TII"} } } {}</m:annotation></m:semantics></m:math> cộng nhau và tạo thành dòng trong rơle làm bảo vệ tác động.</para>
+          <para id="id3553241"/>
+          <para id="id3553245">Sơ đồ nguyên lý bảo vệ so lệch dòng thanh góp có hai mạch như hình 3.10. Vùng bảo vệ được giới hạn giữa các BI. Dòng điện không cân bằng khi ngắn mạch ngoài trong sơ đồ này thường rất lớn do:</para>
+          <para id="id3553259"> Dòng từ hoá BI khác nhau.</para>
+          <para id="id3553276"> Tải mạch thứ cấp BI khác nhau.</para>
+          <para id="id3553293"> Mức độ bão hoà của BI do thành phần không chu kỳ của dòng ngắn mạch gây ra khác nhau.</para>
+          <para id="id3553312">Thời gian suy giảm của thành phần không chu kì được đánh giá bằng hằng số thời gian 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>τ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{τ} {}</m:annotation></m:semantics></m:math>tuỳ thuộc vào loại phần tử nối kết với thanh góp bị sự cố. Một vài trị số 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>τ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{τ} {}</m:annotation></m:semantics></m:math> tiêu biểu như sau:</para>
+          <para id="id3553429">Máy phát cực lồi có cuộn cảm: 0,15sec.</para>
+          <para id="id3553436">Máy phát cực lồi không có cuộn cảm: 0,3sec.</para>
+          <para id="id3580925">Máy biến áp: 0,04sec.</para>
+          <para id="id3580935">Đường dây: 0,04sec.</para>
+          <para id="id3580946">Từ các số liệu trên ta nhận thấy nếu có máy phát nối với thanh góp, thành phần không chu kì của dòng ngắn mạch sẽ tồn tại lâu hơn và BI bị bão hoà nhiều hơn.</para>
+          <para id="id3580958">Với bảo vệ so lệch dùng rơle dòng điện nên sử dụng đặc tính thời gian phụ thuộc để phối hợp với thời gian giảm dần của thành phần không chu kì dòng ngắn mạch.</para>
+          <para id="id3580970">Để không bị ảnh hưởng bởi hiện tượng bão hoà lõi thép của BI khi ngắn mạch ngoài, người ta dùng BI với lõi không phải là sắt từ (BI tuyến tính, lõi không khí). Ưu điểm của BI này là:</para>
+          <para id="id3580980">- Không bị bão hoà.</para>
+          <para id="id3580986">- Đáp ứng nhanh và không bị quá độ.</para>
+          <para id="id3580993">- Tin cậy, dễ chỉnh định.</para>
+          <para id="id3580999">- Không nguy hiểm khi hở mạch thứ cấp.</para>
+          <para id="id3581006">Tuy nhiên khuyết điểm của loại này là công suất đầu ra thứ cấp thấp và giá thành rất đắt. Sơ đồ dùng BI tuyến tính thường là sơ đồ so lệch cân bằng áp (hình 3.11). Khi ngắn mạch ngoài tổng dòng bằng không và điện thế đưa vào rơle bằng không. Khi ngắn mạch trong vùng bảo vệ, hiệu điện thế suất hiện qua rơle tổng trở và làm rơle tác động.</para>
+        </section>
+        <section id="id-17958518371">
+          <title>II.3. Bảo vệ so lệch thanh góp dùng rơle dòng điện có hãm:</title>
+          <para id="id3581032">Để khắc phục dòng không cân bằng lớn của bảo vệ so lệch thanh góp khi dùng rơle dòng điện người ta cũng có thể dùng rơle so lệch có hãm. Loại rơle này cung cấp một đại lượng hãm thích hợp để khống chế dòng không cân bằng khi ngắn mạch ngoài có dòng không cân bằng lớn. </para>
+          <para id="id3581056">Dòng điện so lệch Isl (dòng làm việc) :</para>
+          <para id="id3581063"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mtext>sl </m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mtext>lv</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mtext>TI</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mtext>TII</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { dot  {I}} rSub { size 8{"sl "} } =  { dot  {I}} rSub { size 8{"lv"} }  = { dot  {I}} rSub { size 8{"TI"} }  -  { dot  {I}} rSub { size 8{"TII"} } } {}</m:annotation></m:semantics></m:math>(3-1)</para>
+          <para id="id3581212">Dòng điện hãm IH:</para>
+          <para id="id3581219"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mtext>H </m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>K</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mtext>TI</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mtext>TII</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { dot  {I}} rSub { size 8{"H "} }  =K \(  { dot  {I}} rSub { size 8{"TI"} } + { dot  {I}} rSub { size 8{"TII"} }  \) } {}</m:annotation></m:semantics></m:math> (3-2)</para>
+          <para id="id3581360">Với K là hệ số hãm, K &lt; 1.</para>
+          <para id="id3581365">Trong chế độ làm việc bình thường, hay khi ngắn mạch ngoài vùng bảo vệ, dòng điện làm việc sẽ bé hơn nhiều so với dòng điện hãm nên rơle so lệch không làm việc. Khi ngắn mạch trong vùng bảo vệ (ví dụ chỉ có một nguồn cung cấp đến thanh góp), lúc này:</para>
+          <para id="id3581381"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mtext>lv</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mtext>TI</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">&gt;</m:mo><m:msub><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mi>H</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { dot  {I}} rSub { size 8{"lv"} } = { dot  {I}} rSub { size 8{"TI"} }  &gt; { dot  {I}} rSub { size 8{H} } } {}</m:annotation></m:semantics></m:math> (3-3)</para>
+          <para id="id3581507">nên rơle so lệch sẽ làm việc.</para>
+        </section>
+        <section id="id-775833564517">
+          <title>II.4. Bảo vệ so lệch thanh góp dùng rơle tổng trở cao (không hãm):</title>
+          <para id="id3581523">Rơle so lệch tổng trở cao được mắc song song với điện trở R có trị số khá lớn.</para>
+          <para id="id3581538">Trong chế độ làm việc bình thường và khi ngắn mạch ngoài vùng bảo vệ (điểm N2), ta có:</para>
+          <para id="id3581546"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>Δ</m:mi><m:mrow><m:mrow><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mtext>TI</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mtext>TII</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ { dot  {I}}= { dot  {I}} rSub { size 8{"TI"} }  -  { dot  {I}} rSub { size 8{"TII"} } =0} {}</m:annotation></m:semantics></m:math> (3-4)</para>
+          <para id="id3581682">Nếu bỏ qua sai số của máy biến dòng, thì dòng điện thứ cấp của BI chạy qua điện trở R có thể xem bằng không.</para>
+          <para id="id3581712">Khi ngắn mạch trong vùng bảo vệ (điểm N1) toàn bộ dòng ngắn mạch sẽ chạy qua điện trở R tạo nên điện áp đặt trên rơle rất lớn, rơle sẽ tác động.</para>
+          <para id="id3581736">Sơ đồ (hình 3.14) trình bày phương án thực hiện bảo vệ rơle tổng trở cao đối với thanh góp. Để đơn giản, ta xét trường hợp sơ đồ thanh góp chỉ có hai phần tử (G, H) và máy biến dòng có thông số giống nhau. Rơle được mắc nối tiếp vời một điện trở ổn định RR, việc mắc nối tiếp một điện trở ổn định RR sẽ làm tăng tổng trở mạch rơle nên phần lớn dòng không cân bằng (do sự bão hoà không giống nhau giữa các BI khi ngắn mạch ngoài) sẽ chạy trong mạch BI bị bão hòa có tổng trở thấp hơn, nghĩa là RR có tác dụng phân dòng qua rơle.</para>
+          <para id="id3581760">Nếu xem cácmáy biến dòng hoàn toàn giống nhau thì RBIG = RBIH (điện trở thứ cấp BI), dây dẫn phụ được đặc trưng bởi R1H và R1G (hình 3.14) và điện kháng mạch từ hóa xH, xG. Ở chế độ ngắn mạch ngoài, nếu các máy biến dòng không bị bão hòa thì xH và xG có trị số khá lớn nên dòng điện từ hóa có thể bỏ qua, dòng điện ra vào nút cân bằng nhau (định luật 1 Kirchoff) do đó phía thứ cấp BI không có dòng chạy qua rơle, rơle không tác động. Trường hợp tồi tệ nhất là máy biến dòng đặt trên phần tử có sự cố bão hòa hoàn toàn, giả thiết ngắn mạch ngoài ở nhánh H làm BI nhánh H bị bão hòa hoàn toàn (xH = 0) nghĩa là biến dòng H không có tín hiệu đầu ra, tình trạng này được biểu thị bằng cách nối tắt xH (hình 3.14). Máy biến dòng G cho tín hiệu đầu ra lớn hơn, không bị bão hòa.</para>
+        </section>
+      </section>
+    </section>
+  </content>
+</document>

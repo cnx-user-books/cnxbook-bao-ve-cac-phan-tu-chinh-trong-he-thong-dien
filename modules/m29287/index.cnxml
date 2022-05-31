@@ -1,0 +1,46 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Bảo vệ máy phát điện</title>
+  <metadata>
+  <md:content-id>m29287</md:content-id><md:title>Bảo vệ máy phát điện</md:title>
+  <md:abstract/>
+  <md:uuid>4a917434-5c90-48df-b6db-afd5b765576e</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-668472287278">
+      <title>I. CÁC DẠNG HƯ HỎNG VÀ TÌNH TRẠNG LÀM VIỆC KHÔNG BÌNH THƯỜNG CỦA MFĐ</title>
+      <section id="id-311175031854">
+        <title>I.1. Các dạng hư hỏng:</title>
+        <list id="id3226871" list-type="bulleted">
+          <item>Ngắn mạch nhiều pha trong cuộn stator. (1)</item>
+          <item>Chạm chập giữa các vòng dây trong cùng 1 pha (đối với các MFĐ có cuộn dây kép). (2)</item>
+          <item>Chạm đất 1 pha trong cuộn dây stator. (3)</item>
+          <item>Chạm đất một điểm hoặc hai điểm mạch kích từ. (4)</item>
+        </list>
+      </section>
+      <section id="id-822945338678">
+        <title>I.2. Các tình trạng làm việc không bình thường của MFĐ:</title>
+        <list id="id3226918" list-type="bulleted">
+          <item>Dòng điện tăng cao do ngắn mạch ngoài hoặc quá tải. (5)</item>
+          <item>Điện áp đầu cực máy phát tăng cao do mất tải đột ngột hoặc khi cắït ngắn mạch ngoài. (6)</item>
+        </list>
+        <para id="id3226936">Ngoài ra còn có các tình trạng làm việc không bình thường khác như: Tải không đối xứng, mất kích từ, mất đồng bộ, tần số thấp, máy phát làm việc ở chế độ động cơ, ...</para>
+      </section>
+      <section id="id-474591465749">
+        <title>II. CÁC BẢO VỆ THƯỜNG DÙNG CHO MFĐ</title>
+        <para id="id3226956">Tuỳ theo chủng loại của máy phát (thuỷ điện, nhiệt điện, turbine khí, thuỷ điện tích năng...), công suất của máy phát, vai trò của máy phát và sơ đồ nối dây của nhà máy điện với các phần tử khác trong hệ thống mà người ta lựa chọn phương thức bảo vệ thích hợp. Hiện nay không có phương thức bảo vệ tiêu chuẩn đối với MFĐ cũng như đối với các thiết bị điện khác. Tuỳ theo quan điểm của người sử dụng đối với các yêu cầu về độ tin cậy, mức độ dự phòng, độ nhạy... mà chúng ta lựa chọn số lượng và chủng loại rơle trong hệ thống bảo vệ. Đối với các MFĐ công suất lớn, xu thế hiện nay là lắp đặt hai hệ thống bảo vệ độc lập nhau với nguồn điện thao tác riêng, mỗi hệ thống bao gồm một bảo vệ chính và một số bảo vệ dự phòng có thể thực hiện đầy đủ các chức năng bảo vệ cho máy phát.</para>
+        <para id="id3226991">Để bảo vệ cho MFĐ chống lại các dạng sự cố nêu ở phần I, người ta thường dùng các loại bảo vệ sau:</para>
+        <list id="id3227001" list-type="bulleted">
+          <item>Bảo vệ so lệch dọc để phát hiện và xử lý khi xảy ra sự cố (1).</item>
+          <item>Bảo vệ so lệch ngang cho sự cố (2).</item>
+          <item>Bảo vệ chống chạm đất một điểm cuộn dây stator cho sự cố (3).</item>
+          <item>Bảo vệ chống chạm đất mạch kích từ cho sự cố (4).</item>
+          <item>Bảo vệ chống ngắn mạch ngoài và quá tải cho sự cố (5).</item>
+          <item>Bảo vệ chống điện áp đầu cực máy phát tăng cao cho sự cố (6). </item>
+        </list>
+        <para id="id3227050">Ngoài ra có thể dùng: Bảo vệ khoảng cách làm bảo vệ dự phòng cho bảo vệ so </para>
+        <para id="id3227058">lệch, bảo vệ chống quá nhiệt rotor do dòng máy phát không cân bằng, bảo vệ chống mất đồng bộ, ...</para>
+      </section>
+    </section>
+  </content>
+</document>

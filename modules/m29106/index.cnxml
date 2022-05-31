@@ -1,0 +1,75 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Bảo vệ máy biến áp</title>
+  <metadata>
+  <md:content-id>m29106</md:content-id><md:title>Bảo vệ máy biến áp</md:title>
+  <md:abstract/>
+  <md:uuid>2003514e-9e46-410a-958d-53cb54dc90e2</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-591561419399">
+      <title>A. GIỚI THIỆU CHUNG</title>
+      <section id="id-270013926026">
+        <title>I. MỤC ĐCH ĐẶT BẢO VỆ</title>
+        <para id="id3332004">Trong hệ thống điện, mây biến âp lă một trong những phần tử quan trọng nhất liín kết hệ thống sản xuất, truyền tải vă phđn phối. V vậy, việc nghiín cứu câc tnh trạng lăm việc khng bnh thường, sự cố... xảy ra với MBA lă rất cần thiết. </para>
+        <para id="id3332019">Để bảo vệ cho MBA lăm việc an toăn cần phải tnh đầy đủ câc hư hỏng bín trong MBA vă câc yếu tố bín ngoăi ảnh hưởng đến sự lăm việc bnh thường của mây biến âp. Từ đ đề ra câc phương ân bảo vệ tốt nhất, loại trừ câc hư hỏng vă ngăn ngừa câc yếu tố bín ngoăi ảnh hưởng đến sự lăm việc của MBA.</para>
+      </section>
+      <section id="id-097090165167">
+        <title>II. câc HƯ HỎNG VĂ TNH TRẠNG LĂM VIỆC KHNG BNH THƯỜNG XẢY RA VỚI MBA</title>
+        <section id="id-247271479338">
+          <title>II.1. Sự cố bín trong MBA:</title>
+          <para id="id3332067">Sự cố bín trong được chia lăm hai nhm sự cố trực tiếp vă sự cố giân tiếp. </para>
+          <list id="id3332074" list-type="bulleted">
+            <item>Sự cố trực tiếp lă ngắn mạch câc cuộn dđy, hư hỏng câch điện lăm thay đổi đột ngột câc thng số điện.</item>
+            <item>Sự cố giân tiếp diễn ra từ từ nhưng sẽ trở thănh sự cố trực tiếp nếu khng phât hiện vă xử lý kịp thời (như quâ nhiệt bín trong MBA, âp suất dầu tăng cao...).</item>
+          </list>
+          <para id="id3332100">Vì vậy yíu cầu bảo vệ sự cố trực tiếp phải nhanh chng câch ly MBA bị sự cố ra khỏi hệ thống điện để giảm ảnh hưởng đến hệ thống. Sự cố giân tiếp khng đi hỏi phải câch ly MBA nhưng phải được phât hiện, c tn hiệu bâo cho nhđn viín vận hănh biết để xử lý. Sau đđy phđn tch một số sự cố bín trong thường gặp.</para>
+          <section id="id-608027682834">
+            <title>II.1.1. Ngắn mạch giữa câc pha trong MBA ba pha:</title>
+            <para id="id3332126">Dạng ngắn mạch năy (hnh 2.1) rất hiếm khi xảy ra, nhưng nếu xảy ra dng ngắn mạch sẽ rất lớn so với dng một pha. </para>
+          </section>
+          <section id="id-850563898793">
+            <title>II.1.2. Ngắn mạch một pha:</title>
+            <para id="id3332156">Có thể là chạm vỏ hoặc chạm lõi thép MBA. Dòng ngắn mạch một pha lớn hay nhỏ phụ thuộc chế độ làm việc của điểm trung tính MBA đối với đất và tỷ lệ vào khoảng cách từ điểm chạm đất đến điểm trung tính.</para>
+            <para id="id3332171">Dưới đây là đồ thị quan hệ dòng điện sự cố theo vị trí điểm ngắn mạch (hình 2.3). Từ đồ thị ta thấy khi điểm sự cố dịch chuyển xa điểm trung tính tới đầu cực MBA, dòng điện sự cố càng tăng.</para>
+          </section>
+          <section id="id-798220015174">
+            <title>II.1.3. Ngắn mạch giữa các vòng dây của cùng một pha:</title>
+            <para id="id3332202">Khoảng (7080)% hư hỏng MBA là từ chạm chập giữa các vòng dây cùng 1 pha bên trong MBA (hình 2.4).</para>
+            <para id="id3332221">Trường hợp này dòng điện tại chổ ngắn mạch rất lớn vì một số vòng dây bị nối ngắn mạch, dòng điện này phát nóng đốt cháy cách điện cuộn dây và dầu biến áp, nhưng dòng điện từ nguồn tới máy biến áp IS có thể vẫn nhỏ (vì tỷ số MBA rất lớn so với số ít vòng dây bị ngắn mạch) không đủ cho bảo vệ rơle tác động.</para>
+            <para id="id3332252">Ngoài ra còn có các sự cố như hư thùng dầu, hư sứ dẫn, hư bộ phận điều chỉnh đầu phân áp ...</para>
+          </section>
+        </section>
+        <section id="id-669722700565">
+          <title>II.2. Dòng điện từ hoá tăng vọt khi đóng MBA không tải:</title>
+          <para id="id3332272">Hiện tượng dòng điện từ hoá tăng vọt có thể xuất hiện vào thời điểm đóng MBA không tải. Dòng điện này chỉ xuất hiện trong cuộn sơ cấp MBA. Nhưng đây không phải là dòng điện ngắn mạch do đó yêu cầu bảo vệ không được tác động.</para>
+        </section>
+        <section id="id-498006965619">
+          <title>II.3. Sự cố bên ngoài ảnh hưởng đến tình trạng làm việc của MBA:</title>
+          <list id="id3332302" list-type="bulleted">
+            <item>Dòng điện tăng cao do ngắn mạch ngoài và quá tải.</item>
+            <item>Mức dầu bị hạ thấp do nhiệt độ không khí xung quanh MBA giảm đột ngột.</item>
+            <item>Quá điện áp khi ngắn mạch một pha trong hệ thống điện...</item>
+          </list>
+        </section>
+      </section>
+    </section>
+    <section id="id-0254336229245">
+      <title>B. CÁC LOẠI BẢO VỆ THƯỜNG SỬ DỤNG ĐỂ BẢO VỆ MBA</title>
+      <section id="id-321024605512">
+        <title>I. BẢO VỆ CHỐNG SỰ CỐ TRỰC TIẾP BÊN TRONG MBA</title>
+        <section id="id-661118321973">
+          <title>I.1. Bảo vệ quá dòng điện:</title>
+          <section id="id-804936555294">
+            <title>I.1.1. Cầu chì:</title>
+            <para id="id3332372">Với MBA phân phối nhỏ thường được bảo vệ chỉ bằng cầu chì (hình2.5). Trong trường hợp máy cắt không được dùng thì cầu chì làm nhiệm vụ cắt sự cố tự động, cầu chì là phần tử bảo vệ quá dòng điện và chịu được dòng điện làm việc cực đại của MBA. Cầu chì không được đứt trong thời gian quá tải ngắn như động cơ khởi động, dòng từ hoá nhảy vọt khi đóng MBA không tải...</para>
+          </section>
+          <section id="id-791487481376">
+            <title>I.1.2. Rơle quá dòng điện:</title>
+            <para id="id3332395">Máy biến áp lớn với công suất (1000-1600)KVA hai dây quấn, điện áp đến 35KV, có trang bị máy cắt, bảo vệ quá dòng điện được dùng làm bảo vệ chính, MBA có công suất lớn hơn bảo vệ quá dòng được dùng làm bảo vệ dự trữ. Để nâng cao độ nhạy cho bảo vệ người ta dùng bảo vệ quá dòng có kiểm tra áp (BVQIKU). Đôi khi bảo vệ cắt nhanh có thể được thêm vào và tạo thành bảo vệ quá dòng có hai cấp (hình 2.6). Với MBA 2 cuộn dây dùng một bộ bảo vệ đặt phía nguồn cung cấp. Với MBA nhiều cuộn dây thường mỗi phía đặt một bộ. </para>
+          </section>
+        </section>
+      </section>
+    </section>
+  </content>
+</document>
